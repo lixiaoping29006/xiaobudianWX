@@ -1,0 +1,13 @@
+<!-- 主页 -->
+<!--首页轮播图
+      swiper是内置组件，interval指两张图之间的间隔时间，duration指一张图滚动持续的时间，circular指是否无缝轮播
+    -->
+<view class="home">
+  <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}"  circular="true">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="100%"/>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
