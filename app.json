@@ -20,25 +20,25 @@
     "list":[
       {
         "pagePath": "pages/component/home/home",
-        "iconPath": "pages/image/home.png",
+        "iconPath": "pages/image/12.png",
         "selectedIconPath": "pages/image/home.png",
         "text": "主页"
       },
       {
         "pagePath": "pages/component/category/category",
-        "iconPath": "pages/image/classift.png",
+        "iconPath": "pages/image/22.png",
         "selectedIconPath": "pages/image/classift.png",
         "text": "分类"
       },
       {
         "pagePath": "pages/component/cart/cart",
-        "iconPath": "pages/image/cart.png",
+        "iconPath": "pages/image/32.png",
         "selectedIconPath": "pages/image/cart.png",
         "text": "购物车"
       },
       {
         "pagePath": "pages/component/myPage/myPage",
-        "iconPath": "pages/image/my.png",
+        "iconPath": "pages/image/42.png",
         "selectedIconPath": "pages/image/my.png",
         "text": "我的"
       }

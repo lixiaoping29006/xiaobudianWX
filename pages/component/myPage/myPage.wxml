@@ -1,0 +1,93 @@
+<!-- 我的 -->
+<view class="my-main">
+  <view class="userinfo">
+    <view class="header">
+      <view class="header-box">
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+        <block wx:else >
+          <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+          <view class="header-portrait">
+            <view class="nickname">{{userInfo.nickName}}</view>
+            <view class="nickname-vip">普通会员</view>
+          </view>
+          <image src="../../image/set.png" class="set"></image>
+        </block>
+      </view>
+      
+      <view class="headline">
+        <view class="balance">
+          <view>112</view>
+          <text>余额 充值</text>
+        </view>
+        <view class="balance">
+          <view>112</view>
+          <text>积分商城</text>
+        </view>
+        <view class="balance">
+          <view>112</view>
+          <text>礼平卡</text>
+        </view>
+        <view class="balance">
+          <view>112</view>
+          <text>优惠券</text>
+        </view>
+      </view>
+    </view>
+    <view class="base">
+      <view class="base-box">
+    
+      </view>
+     <view class="indent-box">
+      <view class="indent-detail">
+        <view class="order">
+          <image src="../../image/obligation.png" class="payment"></image>
+          <view>待付款</view>
+        </view>
+        <view class="order ">
+          <image src="../../image/obligation.png" class="payment"></image>
+          <view>待发货</view>
+        </view>
+        <view class="order">
+          <image src="../../image/obligation.png" class="payment"></image>
+          <view>待收货</view>
+        </view>
+        <view class="order">
+          <image src="../../image/obligation.png" class="payment"></image>
+          <view>售后</view>
+        </view>
+        <view class="order">
+          <image src="../../image/obligation.png" class="payment"></image>
+          <view>全部订单</view>
+        </view>
+      </view>
+     </view>
+
+     <view class="task-box">
+      <view class="task-detail">
+        <view class="left-detail">
+          <image src="../../image/set.png" class="payment"></image>
+          <text class="text-name">任务中心</text>
+          <view class="title">完成任务获取奖励</view>
+        </view>
+       <view class="right-detail">
+          <image src="../../image/set.png" class="payment"></image>
+          <text class="text-name">任务中心</text>
+          <view class="title">便捷展示二维码</view>
+        </view>
+      </view>
+     </view>
+
+     <view class="activi-box">
+      <view class="activi-detail">
+        <view>我的活动</view>
+        <view></view>
+        <view></view>
+      </view>
+     </view>
+    </view>
+    
+  </view>
+  <!-- <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+</view>

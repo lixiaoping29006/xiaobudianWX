@@ -1,0 +1,148 @@
+/**index.wxss**/
+.my-main {
+  width: 100%;
+  height: 100%;
+}
+.header{
+  width: 100%;
+  height: 40%;
+  padding: 30rpx;
+  /* display: flex; */
+  /* background-color:#A18B13 #AB956D; */
+  background-image: linear-gradient(to right,red,green);
+  /* flex-direction: column;
+  align-items: center; */
+}
+.header-box{
+  width: 100%;
+  /* height: 40%; */
+  display: flex;
+}
+.userinfo-avatar {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 90%;
+}
+.header-portrait{
+  width: 30%;
+}
+.nickname {
+  color: #aaa;
+  font-size: 28rpx;
+  margin-left: 15%;  
+}
+.nickname-vip{
+  color: #aaa;
+  font-size: 24rpx;
+  margin-left: 15%;  
+  margin-top: 5%;  
+}
+.set{
+  width: 70rpx;
+  height: 70rpx;
+  margin-left: 40%;
+}
+.headline{
+   display: flex;
+}
+.balance{
+  padding: 20rpx 90rpx 10rpx 10rpx;
+
+}
+.balance view{
+  font-size: 24rpx;
+  color: #ccc;
+   margin-left: 20%;
+}
+.balance text{
+  font-size: 24rpx;
+  color: #ccc;
+}
+.base-box{
+  width: 100%;
+  height: 860rpx;
+  background-color: #ccc;
+  position: relative;
+}
+.base-box{
+  /* background-color: #ccc; */
+}
+.indent-box{
+  width: 100%;
+  height: 150rpx;
+  position: absolute;
+  top: 19%;
+  left: 0%;
+}
+.indent-detail{
+  /* width: 100%; */
+ margin: 3%; 
+ display: flex;
+ background-color: #fff;
+}
+.order{
+  margin: 2% 4% 2% 5%; 
+  /* margin-left: 6%; */
+}
+.order view{
+  font-size: 24rpx;
+}
+.payment{
+  width: 70rpx;
+  height: 70rpx;
+}
+.task-box{
+  width: 100%;
+  height: 200rpx;
+  position: absolute;
+  top: 34%;
+  left: 0%;
+}
+.task-detail{
+  /* width: 100%; */
+ margin: 3%; 
+ display: flex;
+ 
+}
+.left-detail{
+  width: 50%;
+  background-color: #fff;
+   margin-right: 2%;
+  padding: 2% 8%;
+
+}
+.left-detail image{
+  vertical-align: middle;
+}
+.right-detail image{
+  vertical-align: middle;
+}
+.text-name{
+  margin-top: 5%;
+  font-size: 32rpx;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 6%;
+}
+.right-detail{
+  width: 50%;
+  padding: 2% 8%;
+  background-color: #fff;
+}
+.title{
+  font-size: 24rpx;
+  color: #ccc;
+  text-align: center;
+}
+.activi-box{
+  width: 100%;
+  height: 400rpx;
+  position: absolute;
+  top: 48%;
+  left: 0%;
+}
+.activi-detail{
+   margin: 3%; 
+ display: flex;
+  background-color: #fff;
+}
