@@ -44,19 +44,19 @@
           <view>待付款</view>
         </view>
         <view class="order ">
-          <image src="../../image/obligation.png" class="payment"></image>
+          <image src="../../image/dafahuo.png" class="payment"></image>
           <view>待发货</view>
         </view>
         <view class="order">
-          <image src="../../image/obligation.png" class="payment"></image>
+          <image src="../../image/receiving.png" class="payment"></image>
           <view>待收货</view>
         </view>
         <view class="order">
-          <image src="../../image/obligation.png" class="payment"></image>
+          <image src="../../image/afterSale.png" class="payment"></image>
           <view>售后</view>
         </view>
         <view class="order">
-          <image src="../../image/obligation.png" class="payment"></image>
+          <image src="../../image/orderFrom.png" class="payment"></image>
           <view>全部订单</view>
         </view>
       </view>
@@ -65,12 +65,12 @@
      <view class="task-box">
       <view class="task-detail">
         <view class="left-detail">
-          <image src="../../image/set.png" class="payment"></image>
+          <image src="../../image/task.png" class="payment"></image>
           <text class="text-name">任务中心</text>
           <view class="title">完成任务获取奖励</view>
         </view>
        <view class="right-detail">
-          <image src="../../image/set.png" class="payment"></image>
+          <image src="../../image/vipCode.png" class="payment"></image>
           <text class="text-name">任务中心</text>
           <view class="title">便捷展示二维码</view>
         </view>
@@ -79,11 +79,46 @@
 
      <view class="activi-box">
       <view class="activi-detail">
-        <view>我的活动</view>
-        <view></view>
-        <view></view>
+        <view class='my-activi'>我的活动</view>
+        <view class='my-task'>
+          <view class="task-image">
+            <image src="../../image/obligation.png" class="payment"></image>
+            <view>活动任务</view>
+          </view>
+          <view class="task-image">
+            <image src="../../image/obligation.png" class="payment"></image>
+            <view>活动任务</view>
+          </view>
+          <view class="task-image">
+            <image src="../../image/obligation.png" class="payment"></image>
+            <view>活动任务</view>
+          </view>
+          <view class="task-image">
+            <image src="../../image/obligation.png" class="payment"></image>
+            <view>活动任务</view>
+          </view>
+        </view>
+        <view class='my-task'>
+          <view class="task-image">
+            <image src="../../image/obligation.png" class="payment"></image>
+            <view>活动任务</view>
+          </view>
+          <view class="task-image">
+            <image src="../../image/obligation.png" class="payment"></image>
+            <view>活动任务</view>
+          </view>
+          <view class="task-image">
+            <image src="../../image/obligation.png" class="payment"></image>
+            <view>活动任务</view>
+          </view>
+          <view class="task-image">
+            <image src="../../image/obligation.png" class="payment"></image>
+            <view>活动任务</view>
+          </view>
+        </view>
       </view>
      </view>
+
     </view>
     
   </view>
