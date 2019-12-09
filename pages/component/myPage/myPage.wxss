@@ -100,7 +100,6 @@
   left: 0%;
 }
 .task-detail{
-  /* width: 100%; */
  margin: 3%; 
  display: flex;
  
